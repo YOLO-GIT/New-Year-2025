@@ -4,8 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="YOLO-GIT" />
+    <meta name="keywords" content="new yearrr, bruh moment, tahun baru" />
+    <meta name="description" content="Tahun Baru wui, Bajet - bajet je" />
+    <link rel="icon" type="image/x-icon" href="./images/Kirbo.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <!-- Add Open Graph tags for better social media sharing -->
+    <meta property="og:title" content="New Year" />
+    <meta property="og:description" content="Tahun Baru wui, Bajet - bajet je" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./images/Kirbo.png" />
+    <!-- Other Graph Tags -->
+    <meta name="twitter:title" content="New Year" />
+    <meta name="twitter:description" content="Tahun Baru wui, Bajet - bajet je" />
+    <meta name="twitter:image" content="./images/Kirbo.png" />
+    <meta name="twitter:card" content="New Year is here!" />
     <link href="./src/output.css" rel="stylesheet">
-    <title>Document</title>
+    <link href="./node_modules/aos/dist/aos.css" rel="stylesheet">
+    <title>Selamat Tahun Baru</title>
 </head>
 
 <body>
@@ -13,42 +29,218 @@
     <section class="slides">
         <ul class="list">
             <li class="slide">
-                <div class="background" style="background-image: url('../image/slide-one_1.webp');
-          "></div>
-                <div class="content">
+                <div class="absolute inset-0 flex justify-center items-center">
+                    <img src="./images/bg.jpg" alt="Stunning GIF" class="gif" />
+                </div>
+                <div
+                    class="content text-4xl font-bold bg-gradient-to-r from-blue-300 via-blue-500 to-purple-600 text-transparent bg-clip-text background-animate">
                     Happy New Year!!!
                 </div>
             </li>
         </ul>
     </section>
 
-    <!-- Image Slide -->
-    <section id="horizontal">
-        <div class="content">
-            <img src="image1.jpg" alt="Image 1 description" class="w-full h-auto">
-            <p>From the beginning</p>
-        </div>
-        <div class="content">
-            <img src="image2.jpg" alt="Image 2 description" class="w-full h-auto">
-            <p>2</p>
-        </div>
-        <div class="content">
-            <img src="image3.jpg" alt="Image 3 description" class="w-full h-auto">
-            <p>3</p>
-        </div>
-        <div class="content">
-            <img src="image4.jpg" alt="Image 4 description" class="w-full h-auto">
-            <p>To the end</p>
-        </div>
+    <section class="sec bg-gradient-to-r from-blue-950 to-blue-500">
+        <h2 class="text-xs sm:text-3xl text-center font-semibold text-white">
+            M E M O R I
+        </h2>
     </section>
 
+    <!-- Image Slide -->
+    <div class="delay-[800ms] duration-[1200ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
+        <section id="horizontal">
+            <!-- Image One -->
+            <div class="content">
+                <img data-modal-target="default-one" data-modal-toggle="default-one" src="./images/new_sem_1.png"
+                    alt="Image 1 description" class="max-w-96 sm:max-w-3xl object-contain rounded-2xl transform transition-transform hover:scale-105 ease-out
+                duration-500 hover:shadow-lg">
+            </div>
+
+            <!-- Image Two -->
+            <div class="content">
+                <img data-modal-target="default-two" data-modal-toggle="default-two" src="./images/sem_new_5.png"
+                    alt="Image 4 description" class="max-w-96 sm:max-w-3xl object-contain rounded-2xl transform
+                    transition-transform hover:scale-105 ease-out
+                duration-500 hover:shadow-lg">
+            </div>
+
+            <!-- Image Three -->
+            <div class="content">
+                <img data-modal-target="default-three" data-modal-toggle="default-three" src="./images/bruh_1.png"
+                    alt="Image 4 description" class="w-60 sm:w-96 object-contain rounded-2xl transform transition-transform hover:scale-105 ease-out
+                duration-500 hover:shadow-lg">
+            </div>
+
+            <!-- Image Four -->
+            <div class="content">
+                <img data-modal-target="default-four" data-modal-toggle="default-four" src="./images/bruh_2.png"
+                    alt="Image 4 description" class="w-60 sm:w-96 object-contain rounded-2xl transform transition-transform hover:scale-105 ease-out
+                duration-500 hover:shadow-lg">
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal Start -->
+    <div id="default-one" tabindex="-1" aria-hidden="true"
+        class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-80 mx-auto sm:mx-0 sm:w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative p-4 w-full max-w-2xl max-h-full">
+            <!-- Modal content -->
+            <div class="relative bg-slate-800 rounded-lg shadow">
+                <img src="./images/new_sem_1.png">
+                <!-- Modal footer -->
+                <div class=" flex items-center justify-between p-4 md:p-5 border-t border-gray-200 rounded-b
+                                dark:border-gray-600">
+                    <h1 class="text-white font-semibold italic hover:text-red-500">
+                        - YOLO-GIT
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="default-two" tabindex="-1" aria-hidden="true"
+        class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-80 mx-auto sm:mx-0 sm:w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative p-4 w-full max-w-2xl max-h-full">
+            <!-- Modal content -->
+            <div class="relative bg-slate-800 rounded-lg shadow">
+                <img src="./images/sem_new_5.png">
+                <!-- Modal footer -->
+                <div class=" flex items-center justify-between p-4 md:p-5 border-t border-gray-200 rounded-b
+                                dark:border-gray-600">
+                    <h1 class="text-white font-semibold italic hover:text-red-500">
+                        - YOLO-GIT
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="default-three" tabindex="-1" aria-hidden="true"
+        class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-80 mx-auto sm:mx-0 sm:w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative p-4 w-full max-w-2xl max-h-full">
+            <!-- Modal content -->
+            <div class="relative bg-slate-800 rounded-lg shadow">
+                <img src="./images/bruh_1.png">
+                <!-- Modal footer -->
+                <div class=" flex items-center justify-between p-4 md:p-5 border-t border-gray-200 rounded-b
+                                dark:border-gray-600">
+                    <h1 class="text-white font-semibold italic hover:text-red-500">
+                        - YOLO-GIT
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="default-four" tabindex="-1" aria-hidden="true"
+        class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-80 mx-auto sm:mx-0 sm:w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative p-4 w-full max-w-2xl max-h-full">
+            <!-- Modal content -->
+            <div class="relative bg-slate-800 rounded-lg shadow">
+                <img src="./images/bruh_2.png">
+                <!-- Modal footer -->
+                <div class=" flex items-center justify-between p-4 md:p-5 border-t border-gray-200 rounded-b
+                                dark:border-gray-600">
+                    <h1 class="text-white font-semibold italic hover:text-red-500">
+                        - YOLO-GIT
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End -->
+
+    <section class="sec bg-gradient-to-r from-blue-950 to-blue-500">
+        <h2 class="text-xs sm:text-3xl text-center font-semibold text-white">
+            KATA - KATA DARI PENAJA
+        </h2>
+    </section>
 
     <!-- Word 1 -->
-    <section></section>
+    <div class="delay-[300ms] duration-[600ms] taos:translate-x-[-100%] taos:opacity-0" data-taos-offset="400">
+        <section class="bg-slate-200">
+            <div class="grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div class="ml-auto place-self-center lg:col-span-7 mt-5 sm:mt-0 rounded-md p-6">
+                    <h1
+                        class="text-center sm:text-left max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white text-gray-900 sm:text-gray-900">
+                        Sudah Berlalunya Satu Tahun 😭
+                    </h1>
+                    <p
+                        class="text-center sm:text-left mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+                        "Maaf kerana tiada banyak gambar. Saya hanya mengenang memori sahaja. 🥲"
+                    </p>
+                </div>
+                <div class="lg:mt-0 lg:col-span-5 lg:flex mx-auto">
+                    <img class="rounded-2xl w-60 sm:w-96 transform transition-transform hover:scale-105 ease-out duration-500 hover:shadow-lg"
+                        src="./images/chill (1).png" alt="mockup" />
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="sec bg-gradient-to-r from-blue-950 to-blue-500">
+        <h2 class="text-xs sm:text-3xl text-center font-semibold text-white">
+            AZAM BAHARU
+        </h2>
+    </section>
+
     <!-- Word 2 -->
-    <section></section>
+    <div class="delay-[300ms] duration-[600ms] taos:translate-x-[100%] taos:opacity-0" data-taos-offset="400">
+        <section class="bg-slate-200">
+            <div class="grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div class="lg:mt-0 lg:col-span-5 lg:flex mx-auto">
+                    <img class="rounded-2xl w-60 sm:w-96 transform transition-transform hover:scale-105 ease-out duration-500 hover:shadow-lg"
+                        src="./images/Sufi.jpg" alt="mockup" />
+                </div>
+                <div class="ml-auto place-self-center lg:col-span-7 mt-5 sm:mt-0 rounded-md p-6">
+                    <h1
+                        class="text-center sm:text-left max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white text-gray-900 sm:text-gray-900">
+                        Kata - Kata dan Azam Baharu 📕
+                    </h1>
+                    <p
+                        class="text-center sm:text-left mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+                        "Hi, semua. Jikalau sesiapa baca ini, saya, Supi, ingin mengucapkan Selamat Tahun Baru dan saya
+                        ingin minta maaf jikalau saya ada buat silap salah terhadap kawan saya, roommate saya, dan
+                        keluarga saya."
+                    </p>
+                    <p
+                        class="text-center sm:text-left mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+                        "Azam baharu saya ialah untuk menjadi diri saya yang lebih bagus daripada tahun
+                        lepas 🗣️🔥🔥🔥"
+                    </p>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="sec bg-gradient-to-r from-blue-950 to-blue-500">
+        <h2 class="text-xs sm:text-3xl text-center font-semibold text-white">
+            BYE - BYE LAST YEAR, HELLO NEW YEAR 🥳
+        </h2>
+    </section>
+
     <!-- Video -->
-    <section></section>
+    <section>
+        <div class="grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="ml-auto place-self-center lg:col-span-7 mt-5 sm:mt-0 rounded-md p-6">
+                <h1
+                    class="text-center sm:text-left max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white text-gray-900 sm:text-gray-900">
+                    Kata - Kata Akhir 🥲
+                </h1>
+                <p
+                    class="text-center sm:text-left mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+                    "Semoga tahun ini adalah tahun kita. 🙂‍↔️"
+                </p>
+            </div>
+            <div class="lg:mt-0 lg:col-span-5 lg:flex mx-auto">
+                <video class="w-96 rounded-md" controls>
+                    <source src="./video/second edit.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
 
     <!-- Contact Us -->
     <section id="contact" class="py-16 bg-gradient-to-r from-green-500 to-blue-500 text-white background-animate">
@@ -125,10 +317,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
     <script src="./main.js"></script>
     <script src="./socials.js"></script>
     <script src="../src/gsap.js"></script>
-
 </body>
 
 </html>
